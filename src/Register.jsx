@@ -21,7 +21,7 @@ const Register = () => {
     const user = { username, password };
     users.push(user);
     localStorage.setItem('users', JSON.stringify(users));
-    window.location.href = '/login';
+    window.location.href = '/dashboard';
   };
 
   return (
